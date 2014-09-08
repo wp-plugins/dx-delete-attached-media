@@ -5,7 +5,7 @@
  * Description: Delete attached media to all posts (if activated). Remove images assigned to a post to clear old archives.
  * Author: nofearinc
  * Author URI: http://devrix.com
- * Version: 0.4
+ * Version: 0.5
  */
 // TODO: options for delete_hook or trash_hook
 // TODO: option for admin panel or single post/page

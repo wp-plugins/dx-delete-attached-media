@@ -1,16 +1,16 @@
 === DX Delete Attached Media ===
-Contributors: nofearinc
+Contributors: devrix, nofearinc
 Donate link: http://devrix.com
 Tags: media, attachment, post
 Requires at least: 3.0
-Tested up to: 3.3.1
-Stable tag: 0.4
+Tested up to: 4.0
+Stable tag: 0.5
 
 Automatically deletes attached media from posts and custom post types added via the Media button.
 
 == Description ==
 
-DX Delete Attached Media deletes all attached media files to posts once they get deleted from the system. The standard core behavior deletes posts alone without taking care of related images. Now you can maintain your install and get rid of all solo attachments getting into your posts via the Media button and used nowhere else.
+DX Delete Attached Media deletes all of the attached media files to your posts once they get deleted from the system. The standard core behavior deletes posts alone without taking care of related images. Now you can maintain your install and get rid of all solo attachments getting into your posts via the Media button and used nowhere else.
 
 == Installation ==
 
@@ -25,7 +25,14 @@ DX Delete Attached Media deletes all attached media files to posts once they get
 
 Yes, as long as you attach images via the Media button, they are going to be deleted once the post/post type entry is deleted.
 
+= Does it work for all of the deleted posts? =
+
+It works for all of your deleted posts, as long as you delete them from the system. Keep in mind that the soft delete sends your post to Trash first, and deleting the media would happen once your Trash is being emptied. 
+
 == Changelog ==
+
+= 0.5 =
+* Description update and version bump
 
 = 0.4 =
 * First release
